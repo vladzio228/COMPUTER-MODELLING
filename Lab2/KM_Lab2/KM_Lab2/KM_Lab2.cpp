@@ -9,7 +9,8 @@ using namespace std;
  long double xn = 3.0;
  long double y = 1.1323;
 
-long double function(long double x, long double y) {
+long double function(long double x, long double y) //(x^2+y^2)y'=1
+{
     return 1 / (pow(x, 2) + pow(y, 2));
 }
 
